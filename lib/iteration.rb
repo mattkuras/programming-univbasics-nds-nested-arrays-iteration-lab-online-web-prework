@@ -1,3 +1,5 @@
+require 'pry'
+
 def join_ingredients(src)
   
   new_array = []
@@ -49,7 +51,6 @@ def find_greater_pair(src)
   end
   results
 end
-require 'pry'
 def total_even_pairs(src)
   
   total = 0 
